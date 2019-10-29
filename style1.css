@@ -35,6 +35,6 @@ ul.topmenu {
 }
 
 ul.topmenu li {
- display: inline:
+ display: inline;
  border: 5px outset #888888;
 }
