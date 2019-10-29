@@ -9,18 +9,18 @@ body {
 h1, h2 {
   color: white;
   font-weight: bold;
-  background-color: black;
+  background-color: #808080;
 }
 
 .paragraph {
-  background-color: white;
+  background-color: #dedede;
   padding: 20px;
 }
 
 #toptitle {
  position: fixed;
  top: 5px;
- background-color: black;
+ background-color: #808080;
  color: white;
  font-weight: bold;
  padding: 2px;
@@ -28,7 +28,7 @@ h1, h2 {
 
 .topmenu {
   overflow: hidden;
-  background-color: blackground;
+  background-color: #808080;
   position: fixed;
   top: 100px;
   width: 100%;
@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 .topmenu a:hover {
-  background: white;
+  background: #dedede;
   color: black;
 }
 
