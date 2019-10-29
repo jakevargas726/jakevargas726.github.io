@@ -18,10 +18,23 @@ h1, h2 {
 }
 
 #toptitle {
-  position: fixed;
-  top: 5px;
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  padding: 2px;
+ position: fixed;
+ top: 5px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+ padding: 2px;
+}
+
+ul.topmenu {
+ position: fixed;
+ top: 20px;
+ background-color: black;
+ margin: 5px;
+ list-style-type: none;
+}
+
+ul.topmenu li {
+ display: inline:
+ border: 5px outset #888888;
 }
