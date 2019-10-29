@@ -6,32 +6,37 @@ body {
   background-color: #800000;
 }
 
-h1, h2 {
+
+h1 {
   color: white;
   font-weight: bold;
   background-color: #808080;
+  padding-left: 14px;
+  margin-left: 0px;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  background-color: #808080;
+  background-size: cover;
+  padding: 2px 5px;
+  margin-left: 0px;
 }
 
 .paragraph {
   background-color: #dedede;
-  padding: 20px;
-}
-
-#toptitle {
- position: fixed;
- top: 5px;
- background-color: #808080;
- color: white;
- font-weight: bold;
- padding: 2px;
+  padding: 10px 10px;
 }
 
 .topmenu {
   overflow: hidden;
   background-color: #808080;
   position: fixed;
-  top: 100px;
-  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .topmenu a {
@@ -44,11 +49,15 @@ h1, h2 {
 }
 
 .topmenu a:hover {
-  background: #dedede;
+  background-color: #dedede;
   color: black;
+}
+
+.active {
+  background-color: #333333;
 }
 
 
 .main {
-  margin-top: 150px;
+  margin-top: 160px;
 }
