@@ -28,7 +28,7 @@ h1, h2 {
 
 .topmenu {
   overflow: hidden;
-  background-color: #333;
+  background-color: blackground;
   position: fixed;
   top: 100px;
   width: 100%;
@@ -37,14 +37,14 @@ h1, h2 {
 .topmenu a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .topmenu a:hover {
-  background: #ddd;
+  background: white;
   color: black;
 }
 
