@@ -1,3 +1,7 @@
+* {
+ font-family: Lucida Console, Verdana, Arial, sans-serif;
+}
+
 body {
   background-color: #333333;
 }
@@ -13,6 +17,11 @@ h1, h2 {
   padding: 20px;
 }
 
-* {
- font-family: Lucida Console, Verdana, Arial, sans-serif;
+#toptitle {
+  position: fixed;
+  top: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
 }
