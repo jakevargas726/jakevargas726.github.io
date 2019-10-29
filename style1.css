@@ -4,9 +4,15 @@ body {
 
 h1, h2 {
   color: white;
+  font-weight: bold;
   background-color: black;
 }
 
-p {
+.paragraph {
   background-color: white;
+  padding: 20px;
+}
+
+* {
+ font-family: Lucida Console, Verdana, Arial, sans-serif;
 }
