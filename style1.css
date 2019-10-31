@@ -47,6 +47,8 @@ h2 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+ position: fixed;
+ top: 125px;
 }
 
 .topmenu a:hover {
